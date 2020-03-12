@@ -1,2 +1,3 @@
 # remark-preset-lint-sider
-An opinionated remark-lint preset by Sider
+
+This is an opinionated [remark-lint](https://github.com/remarkjs/remark-lint) preset by Sider.
