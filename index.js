@@ -20,7 +20,4 @@ exports.plugins = [
   // External rules
   "remark-lint-match-punctuation",
   "remark-lint-no-dead-urls",
-
-  // Plugins
-  "remark-validate-links",
 ];
