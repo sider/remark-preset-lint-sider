@@ -23,7 +23,7 @@ $ npx remark --use remark-preset-lint-sider .
 ## Releasing
 
 1. Run [`npm version`](https://docs.npmjs.com/cli/version).
-2. Run `git push --follow-tags`.
+2. Run [`git push --follow-tags`](https://git-scm.com/docs/git-push).
 3. Create a new release on the [release page](https://github.com/sider/remark-preset-lint-sider/releases).
 
 Publishing to npm will be performed automatically.
