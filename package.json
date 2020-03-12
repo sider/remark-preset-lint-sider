@@ -17,7 +17,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "remark ."
+    "test": "remark .",
+    "preversion": "npm test"
   },
   "devDependencies": {
     "remark-cli": "^7.0.1",
