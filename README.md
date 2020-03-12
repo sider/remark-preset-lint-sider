@@ -1,5 +1,7 @@
 # remark-preset-lint-sider
 
+[![npm version](https://badge.fury.io/js/remark-preset-lint-sider.svg)](https://badge.fury.io/js/remark-preset-lint-sider)
+
 This is an opinionated [remark-lint](https://github.com/remarkjs/remark-lint) preset by Sider.
 
 This preset focuses on possible errors or mistakes, not stylistic issues.
@@ -9,7 +11,7 @@ This preset focuses on possible errors or mistakes, not stylistic issues.
 Install,
 
 ```shell-session
-$ npm install --save-dev remark-cli github:sider/remark-preset-lint-sider
+$ npm install --save-dev remark-cli remark-preset-lint-sider
 ```
 
 Then run,
