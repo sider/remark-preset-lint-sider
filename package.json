@@ -5,12 +5,43 @@
   "author": "Sleeek Corporation <support@sider.review> (https://sider.review/)",
   "license": "MIT",
   "repository": "sider/remark-preset-lint-sider",
+  "keywords": [
+    "remark",
+    "remark-lint",
+    "preset",
+    "markdown",
+    "lint"
+  ],
   "main": "index.js",
-	"scripts": {
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
     "test": "remark ."
-	},
+  },
   "devDependencies": {
     "remark-cli": "^7.0.1",
     "remark-lint": "^6.0.5"
+  },
+  "dependencies": {
+    "remark-lint-heading-increment": "^1.0.3",
+    "remark-lint-match-punctuation": "^0.2.0",
+    "remark-lint-no-auto-link-without-protocol": "^1.0.3",
+    "remark-lint-no-blockquote-without-marker": "^2.0.3",
+    "remark-lint-no-dead-urls": "^1.0.2",
+    "remark-lint-no-duplicate-definitions": "^1.0.5",
+    "remark-lint-no-duplicate-headings": "^1.0.4",
+    "remark-lint-no-duplicate-headings-in-section": "^1.0.4",
+    "remark-lint-no-empty-url": "^1.0.5",
+    "remark-lint-no-file-name-consecutive-dashes": "^1.0.3",
+    "remark-lint-no-file-name-outer-dashes": "^1.0.4",
+    "remark-lint-no-inline-padding": "^1.0.4",
+    "remark-lint-no-multiple-toplevel-headings": "^1.0.4",
+    "remark-lint-no-reference-like-url": "^1.0.4",
+    "remark-lint-no-shortcut-reference-image": "^1.0.3",
+    "remark-lint-no-shortcut-reference-link": "^1.0.4",
+    "remark-lint-no-undefined-references": "^1.1.1",
+    "remark-lint-no-unused-definitions": "^1.0.5",
+    "remark-validate-links": "^9.2.0"
   }
 }

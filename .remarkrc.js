@@ -1,1 +1,1 @@
-exports.plugins = ['./index'];
+exports.plugins = ["./index"];
