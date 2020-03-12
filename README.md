@@ -19,3 +19,7 @@ Then run,
 ```shell-session
 $ npx remark --use remark-preset-lint-sider .
 ```
+
+## License
+
+[MIT](LICENSE) © Sleeek Corporation
