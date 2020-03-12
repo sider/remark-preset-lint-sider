@@ -1,0 +1,16 @@
+{
+  "name": "remark-preset-lint-sider",
+  "version": "0.1.0",
+  "description": "An opinionated remark-lint preset by Sider",
+  "author": "Sleeek Corporation <support@sider.review> (https://sider.review/)",
+  "license": "MIT",
+  "repository": "sider/remark-preset-lint-sider",
+  "main": "index.js",
+	"scripts": {
+    "test": "remark ."
+	},
+  "devDependencies": {
+    "remark-cli": "^7.0.1",
+    "remark-lint": "^6.0.5"
+  }
+}
