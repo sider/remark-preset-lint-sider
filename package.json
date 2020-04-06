@@ -42,6 +42,6 @@
     "remark-lint-no-shortcut-reference-image": "^1.0.3",
     "remark-lint-no-shortcut-reference-link": "^1.0.4",
     "remark-lint-no-undefined-references": "^1.1.1",
-    "remark-lint-no-unused-definitions": "^1.0.5"
+    "remark-lint-no-unused-definitions": "^2.0.0"
   }
 }
