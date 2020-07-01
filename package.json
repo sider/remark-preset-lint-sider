@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "test": "remark .",
-    "preversion": "npm test"
+    "preversion": "npm install && npm test"
   },
   "devDependencies": {
     "remark-cli": "^8.0.0",
