@@ -24,7 +24,7 @@
     "preversion": "npm test"
   },
   "devDependencies": {
-    "remark-cli": "^7.0.1",
+    "remark-cli": "^8.0.0",
     "remark-lint": "^7.0.0"
   },
   "dependencies": {
