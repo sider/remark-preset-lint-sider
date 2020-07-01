@@ -2,7 +2,7 @@ name: Publish
 
 on:
   release:
-    types: [released, prereleased]
+    types: [published]
 
 jobs:
   publish:
@@ -15,12 +15,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install
       - run: npm test
-      - name: npm publish
-        run: |
-          if [[ '${{ github.event_name }}' == 'prereleased' ]]; then
-            npm publish --tag next
-          else
-            npm publish
-          fi
+      - run: echo "::set-env name=NPM_CONFIG_TAG::next"
+        if: ${{ github.event.release.prerelease }}
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
