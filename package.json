@@ -28,7 +28,7 @@
     "remark-lint-heading-increment": "^1.0.3",
     "remark-lint-match-punctuation": "^0.2.0",
     "remark-lint-no-auto-link-without-protocol": "^2.0.0",
-    "remark-lint-no-blockquote-without-marker": "^2.0.3",
+    "remark-lint-no-blockquote-without-marker": "^3.0.0",
     "remark-lint-no-dead-urls": "^1.0.2",
     "remark-lint-no-duplicate-definitions": "^1.0.5",
     "remark-lint-no-duplicate-headings": "^2.0.0",
