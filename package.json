@@ -12,6 +12,9 @@
     "markdown",
     "lint"
   ],
+  "engines": {
+    "node": "^10.13.0 || >=12.0.0"
+  },
   "main": "index.js",
   "files": [
     "index.js"
