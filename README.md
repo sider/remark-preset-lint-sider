@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/remark-preset-lint-sider.svg)](https://badge.fury.io/js/remark-preset-lint-sider)
 
-This is an opinionated [remark-lint](https://github.com/remarkjs/remark-lint) preset by Sider.
+This is an opinionated [remark-lint](https://github.com/remarkjs/remark-lint) preset by [Sider](https://sider.review/).
 
 This preset focuses on possible errors or mistakes, not stylistic issues.
 
