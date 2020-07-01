@@ -44,7 +44,7 @@
     "remark-lint-no-reference-like-url": "^1.0.4",
     "remark-lint-no-shortcut-reference-image": "^2.0.0",
     "remark-lint-no-shortcut-reference-link": "^1.0.4",
-    "remark-lint-no-undefined-references": "^1.1.1",
+    "remark-lint-no-undefined-references": "^2.0.0",
     "remark-lint-no-unused-definitions": "^2.0.0"
   }
 }
