@@ -1,6 +1,6 @@
 {
   "name": "remark-preset-lint-sider",
-  "version": "0.3.0-beta.1",
+  "version": "0.3.0",
   "description": "An opinionated remark-lint preset by Sider",
   "author": "Sleeek Corporation <support@sider.review> (https://sider.review/)",
   "license": "MIT",
