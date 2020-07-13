@@ -41,7 +41,7 @@
     "remark-lint-no-file-name-outer-dashes": "^1.0.6",
     "remark-lint-no-inline-padding": "^2.0.1",
     "remark-lint-no-multiple-toplevel-headings": "^2.0.1",
-    "remark-lint-no-reference-like-url": "^2.0.0",
+    "remark-lint-no-reference-like-url": "^2.0.1",
     "remark-lint-no-shortcut-reference-image": "^2.0.1",
     "remark-lint-no-shortcut-reference-link": "^2.0.1",
     "remark-lint-no-undefined-references": "^2.0.1",
