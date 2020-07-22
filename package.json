@@ -30,7 +30,7 @@
   "dependencies": {
     "remark-lint-heading-increment": "^2.0.1",
     "remark-lint-match-punctuation": "^0.2.0",
-    "remark-lint-no-auto-link-without-protocol": "^2.0.0",
+    "remark-lint-no-auto-link-without-protocol": "^2.0.1",
     "remark-lint-no-blockquote-without-marker": "^3.0.0",
     "remark-lint-no-dead-urls": "^1.0.2",
     "remark-lint-no-duplicate-definitions": "^2.0.1",
