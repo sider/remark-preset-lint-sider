@@ -21,9 +21,12 @@
   ],
   "scripts": {
     "test": "remark .",
-    "preversion": "npm install && npm test"
+    "preversion": "npm install && npm test",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
   },
   "devDependencies": {
+    "prettier": "^2.0.5",
     "remark-cli": "^8.0.1",
     "remark-lint": "^7.0.1"
   },
