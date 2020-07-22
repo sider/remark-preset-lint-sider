@@ -1,23 +1,23 @@
-exports.plugins = [
+exports.plugins = {
   // Official rules
-  "remark-lint-heading-increment",
-  "remark-lint-no-auto-link-without-protocol",
-  "remark-lint-no-blockquote-without-marker",
-  "remark-lint-no-duplicate-definitions",
-  "remark-lint-no-duplicate-headings",
-  "remark-lint-no-duplicate-headings-in-section",
-  "remark-lint-no-empty-url",
-  "remark-lint-no-file-name-consecutive-dashes",
-  "remark-lint-no-file-name-outer-dashes",
-  "remark-lint-no-inline-padding",
-  "remark-lint-no-multiple-toplevel-headings",
-  "remark-lint-no-reference-like-url",
-  "remark-lint-no-shortcut-reference-image",
-  "remark-lint-no-shortcut-reference-link",
-  "remark-lint-no-undefined-references",
-  "remark-lint-no-unused-definitions",
+  "remark-lint-heading-increment": true,
+  "remark-lint-no-auto-link-without-protocol": true,
+  "remark-lint-no-blockquote-without-marker": true,
+  "remark-lint-no-duplicate-definitions": true,
+  "remark-lint-no-duplicate-headings": true,
+  "remark-lint-no-duplicate-headings-in-section": true,
+  "remark-lint-no-empty-url": true,
+  "remark-lint-no-file-name-consecutive-dashes": true,
+  "remark-lint-no-file-name-outer-dashes": true,
+  "remark-lint-no-inline-padding": true,
+  "remark-lint-no-multiple-toplevel-headings": true,
+  "remark-lint-no-reference-like-url": true,
+  "remark-lint-no-shortcut-reference-image": true,
+  "remark-lint-no-shortcut-reference-link": true,
+  "remark-lint-no-undefined-references": true,
+  "remark-lint-no-unused-definitions": true,
 
   // External rules
-  "remark-lint-match-punctuation",
-  "remark-lint-no-dead-urls",
-];
+  "remark-lint-match-punctuation": true,
+  "remark-lint-no-dead-urls": [true, { skipLocalhost: true, skipOffline: true }],
+};
