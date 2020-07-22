@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "test": "remark .",
-    "preversion": "npm install && npm test",
+    "pretest": "npm run prettier:check",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
   },

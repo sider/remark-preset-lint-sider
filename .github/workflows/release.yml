@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    branches: [master]
+    inputs:
+      new-version:
+        description: Argument for `npm version`. See https://docs.npmjs.com/cli/version
+        required: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: npm install
+      - run: npm test
+      - run: npm version "${{ github.event.inputs.new-version }}"
+      - run: git push --follow-tags
