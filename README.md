@@ -22,7 +22,7 @@ $ npx remark --use remark-preset-lint-sider .
 
 ## Releasing
 
-1. Trigger the [`release action`](https://github.com/sider/remark-preset-lint-sider/actions?query=workflow%3ARelease).
+1. Trigger the [release action](https://github.com/sider/remark-preset-lint-sider/actions?query=workflow%3ARelease).
 2. Create a [new release](https://github.com/sider/remark-preset-lint-sider/releases).
 
 The new version will be published to the npm registry **automatically**.
