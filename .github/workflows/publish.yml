@@ -15,7 +15,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm install
       - run: npm test
-      - run: echo "::set-env name=NPM_CONFIG_TAG::next"
+      - run: echo "NPM_CONFIG_TAG=next" >> $GITHUB_ENV
         if: ${{ github.event.release.prerelease }}
       - run: npm publish
         env:
