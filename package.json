@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "prettier": "^2.1.2",
-    "remark-cli": "^8.0.1",
+    "remark-cli": "^9.0.0",
     "remark-lint": "^8.0.0"
   },
   "dependencies": {
