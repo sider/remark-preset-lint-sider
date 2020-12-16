@@ -2,7 +2,7 @@
   "name": "remark-preset-lint-sider",
   "version": "0.6.0",
   "description": "An opinionated remark-lint preset by Sider",
-  "author": "Sleeek Corporation <support@sider.review> (https://sider.review/)",
+  "author": "Sider Corporation <support@sider.review> (https://sider.review/)",
   "license": "MIT",
   "repository": "sider/remark-preset-lint-sider",
   "keywords": [
