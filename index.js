@@ -20,4 +20,7 @@ exports.plugins = {
   // External rules
   "remark-lint-match-punctuation": true,
   "remark-lint-no-dead-urls": [true, { skipLocalhost: true, skipOffline: true }],
+
+  // Plugins
+  "remark-gfm": true,
 };
