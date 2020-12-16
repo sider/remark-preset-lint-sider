@@ -22,5 +22,6 @@ exports.plugins = {
   "remark-lint-no-dead-urls": [true, { skipLocalhost: true, skipOffline: true }],
 
   // Plugins
+  "remark-frontmatter": true,
   "remark-gfm": true,
 };
