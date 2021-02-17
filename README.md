@@ -1,6 +1,7 @@
-# remark-preset-lint-sider
-
 [![npm version](https://badge.fury.io/js/remark-preset-lint-sider.svg)](https://badge.fury.io/js/remark-preset-lint-sider)
+[![Test](https://github.com/sider/remark-preset-lint-sider/workflows/Test/badge.svg)](https://github.com/sider/remark-preset-lint-sider/actions?query=workflow%3ATest+branch%3Amaster)
+
+# remark-preset-lint-sider
 
 This is an opinionated [remark-lint](https://github.com/remarkjs/remark-lint) preset by [Sider](https://sider.review/).
 
