@@ -18,7 +18,6 @@ exports.plugins = {
   "remark-lint-no-unused-definitions": true,
 
   // External rules
-  "remark-lint-match-punctuation": true,
   "remark-lint-no-dead-urls": [true, { skipLocalhost: true, skipOffline: true }],
 
   // Plugins
